@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    border:none;
+    outline:none;
+    scroll-behavior:smooth;
+    font-family:'poopins', sans-serif;
+    }
+    :root{
+        --bg-color:#1f242d;
+        --second-bg-color:#323946;
+        --main-color:#0ef;
+        
+    
+         
+    }
+    html{
+        font-size:62.5%;
+        overflow-x:hidden;
+    }
+    body{
+    background:var(--bg-color);
+    color:var(--text-color);
+    }
+    section{
+        min-height:100vh;
+        padding:10rem 9% 2rem;
+        color:white;
+    }
+    .header{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        padding:2rem 9%;
+        background:var(--bg-color);
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        z-index:100;
+    
+    
+        
+    }
+    h1{
+        color:white;
+        font-size: x-large;
+        text-decoration: underline;
+    }
+    .box{
+        height:200px;
+        border:2px solid black;
+        width:22%;
+        transition:all 0.7s ease-in-out 0s;
+        background-color:rgb(114, 114, 186);
+        color:white;
+        margin-bottom:20px;
+        border-radius:7px;
+    
+        
+        
+      
+    }
+    
+    .shopsection{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        background-color:#1f242d;
+    
+    
+        
+    }
+    .box:hover{
+        
+        transform:scale(1.2);
+        background-color:black;
+        
+    }
+    .herosection{
+        background-image:url("https://wallpapercave.com/wp/wp4585075.png");
+         height:450px;
+         
+         background-size: cover;
+         display:flex;
+         justify-content:center;
+         align-items:flex-end;
+         
+     }
+
+     img{
+        background-size: cover;
+     }
+     .contact h2{
+        margin-bottom:3rem;
+    }
+    .contact form{
+        max-width:70rem;
+        margin:1rem auto;
+        text-align: center;
+        margin-bottom:3rem;
+    }
+    .contact form .input-box{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .contact form .input-box input,
+    .contact form textarea{
+        width:100%;
+        padding:1.5rem;
+        font-size:1.6rem;
+        color:white;
+        background:var(--second-bg-color);
+        border-radius: .8rem;
+        margin: .7rem 0;
+    
+    }
+    .contact form .input-box input{
+        width:49%;
+    }
+    .contact form textarea{
+        resize:none;
+        height:200px;
+    
+    }
+    .contact form .btn{
+        margin-top:2rem;
+        cursor:pointer;
+    }
+    .footer{
+        color:white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 9%;
+        background: var(--second-bg-color);
+    
+    }
+    .footer-text p{
+        font-size:1.6rem;
+    }
+    .btn{
+        display:inline-block;
+        padding:1rem 2.8rem;
+        background: var(--main-color);
+        border-radius:4rem;
+        box-shadow:0 0 1rem var(--main-color);
+    font-size:1.6rem;
+    color:var(--second-bg-color);
+    
+    font-weight:600;
+    transition: .5s ease;
+    }
+    .login h2{
+        margin-bottom:3rem;
+    }
+    .login form{
+        max-width:100rem;
+        margin:1rem auto;
+        text-align: center;
+        margin-bottom:3rem;
+    }
+    .login form .input-box{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .login form .input-box input,
+   
+    .login form textarea
+    {
+        width:100%;
+        padding:1.5rem;
+        font-size:1.6rem;
+        color:white;
+        background:var(--second-bg-color);
+        border-radius: .8rem;
+        margin: .7rem 0;
+    
+    }
+    .login form .input-box input{
+        width:49%;
+    }
+    .login form textarea{
+        resize:none;
+        height:200px;
+    
+    }
+    .login form .btn{
+        margin-top:2rem;
+        cursor:pointer;
+    }
+    .login{
+        background-color: #4a4e55;
+    }
+
+    .heading{
+        font-size:50px;
+    }
+    #homee{
+        font-size:20px;
+        margin-right:15px;
+    }
+    #loginn{
+        font-size:20px;
+        margin-right:15px;
+    }
+    #contactt{
+        font-size:20px;
+        
+    }
+
+@media only screen and (max-width: 600px) {
+    
+    header, section, footer {
+        padding: 10px;
+    }
+}
